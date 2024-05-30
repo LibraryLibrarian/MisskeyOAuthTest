@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB5DE7682C08A3FB0030CDA5 /* MisskeyOAuthTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5DE7672C08A3FB0030CDA5 /* MisskeyOAuthTestApp.swift */; };
+		AB5DE76A2C08A3FB0030CDA5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5DE7692C08A3FB0030CDA5 /* ContentView.swift */; };
+		AB5DE76C2C08A3FD0030CDA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB5DE76B2C08A3FD0030CDA5 /* Assets.xcassets */; };
+		AB5DE7702C08A3FD0030CDA5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB5DE76F2C08A3FD0030CDA5 /* Preview Assets.xcassets */; };
+		AB5DE77A2C08A3FD0030CDA5 /* MisskeyOAuthTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5DE7792C08A3FD0030CDA5 /* MisskeyOAuthTestTests.swift */; };
+		AB5DE7842C08A3FD0030CDA5 /* MisskeyOAuthTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5DE7832C08A3FD0030CDA5 /* MisskeyOAuthTestUITests.swift */; };
+		AB5DE7862C08A3FD0030CDA5 /* MisskeyOAuthTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5DE7852C08A3FD0030CDA5 /* MisskeyOAuthTestUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB5DE7762C08A3FD0030CDA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB5DE75C2C08A3FB0030CDA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB5DE7632C08A3FB0030CDA5;
+			remoteInfo = MisskeyOAuthTest;
+		};
+		AB5DE7802C08A3FD0030CDA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB5DE75C2C08A3FB0030CDA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB5DE7632C08A3FB0030CDA5;
+			remoteInfo = MisskeyOAuthTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB5DE7642C08A3FB0030CDA5 /* MisskeyOAuthTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MisskeyOAuthTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB5DE7672C08A3FB0030CDA5 /* MisskeyOAuthTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MisskeyOAuthTestApp.swift; sourceTree = "<group>"; };
+		AB5DE7692C08A3FB0030CDA5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AB5DE76B2C08A3FD0030CDA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB5DE76D2C08A3FD0030CDA5 /* MisskeyOAuthTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MisskeyOAuthTest.entitlements; sourceTree = "<group>"; };
+		AB5DE76F2C08A3FD0030CDA5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AB5DE7752C08A3FD0030CDA5 /* MisskeyOAuthTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MisskeyOAuthTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB5DE7792C08A3FD0030CDA5 /* MisskeyOAuthTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MisskeyOAuthTestTests.swift; sourceTree = "<group>"; };
+		AB5DE77F2C08A3FD0030CDA5 /* MisskeyOAuthTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MisskeyOAuthTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB5DE7832C08A3FD0030CDA5 /* MisskeyOAuthTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MisskeyOAuthTestUITests.swift; sourceTree = "<group>"; };
+		AB5DE7852C08A3FD0030CDA5 /* MisskeyOAuthTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MisskeyOAuthTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB5DE7612C08A3FB0030CDA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB5DE7722C08A3FD0030CDA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB5DE77C2C08A3FD0030CDA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB5DE75B2C08A3FB0030CDA5 = {
+			isa = PBXGroup;
+			children = (
+				AB5DE7662C08A3FB0030CDA5 /* MisskeyOAuthTest */,
+				AB5DE7782C08A3FD0030CDA5 /* MisskeyOAuthTestTests */,
+				AB5DE7822C08A3FD0030CDA5 /* MisskeyOAuthTestUITests */,
+				AB5DE7652C08A3FB0030CDA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB5DE7652C08A3FB0030CDA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB5DE7642C08A3FB0030CDA5 /* MisskeyOAuthTest.app */,
+				AB5DE7752C08A3FD0030CDA5 /* MisskeyOAuthTestTests.xctest */,
+				AB5DE77F2C08A3FD0030CDA5 /* MisskeyOAuthTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB5DE7662C08A3FB0030CDA5 /* MisskeyOAuthTest */ = {
+			isa = PBXGroup;
+			children = (
+				AB5DE7672C08A3FB0030CDA5 /* MisskeyOAuthTestApp.swift */,
+				AB5DE7692C08A3FB0030CDA5 /* ContentView.swift */,
+				AB5DE76B2C08A3FD0030CDA5 /* Assets.xcassets */,
+				AB5DE76D2C08A3FD0030CDA5 /* MisskeyOAuthTest.entitlements */,
+				AB5DE76E2C08A3FD0030CDA5 /* Preview Content */,
+			);
+			path = MisskeyOAuthTest;
+			sourceTree = "<group>";
+		};
+		AB5DE76E2C08A3FD0030CDA5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AB5DE76F2C08A3FD0030CDA5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AB5DE7782C08A3FD0030CDA5 /* MisskeyOAuthTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB5DE7792C08A3FD0030CDA5 /* MisskeyOAuthTestTests.swift */,
+			);
+			path = MisskeyOAuthTestTests;
+			sourceTree = "<group>";
+		};
+		AB5DE7822C08A3FD0030CDA5 /* MisskeyOAuthTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB5DE7832C08A3FD0030CDA5 /* MisskeyOAuthTestUITests.swift */,
+				AB5DE7852C08A3FD0030CDA5 /* MisskeyOAuthTestUITestsLaunchTests.swift */,
+			);
+			path = MisskeyOAuthTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB5DE7632C08A3FB0030CDA5 /* MisskeyOAuthTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB5DE7892C08A3FD0030CDA5 /* Build configuration list for PBXNativeTarget "MisskeyOAuthTest" */;
+			buildPhases = (
+				AB5DE7602C08A3FB0030CDA5 /* Sources */,
+				AB5DE7612C08A3FB0030CDA5 /* Frameworks */,
+				AB5DE7622C08A3FB0030CDA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MisskeyOAuthTest;
+			productName = MisskeyOAuthTest;
+			productReference = AB5DE7642C08A3FB0030CDA5 /* MisskeyOAuthTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB5DE7742C08A3FD0030CDA5 /* MisskeyOAuthTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB5DE78C2C08A3FD0030CDA5 /* Build configuration list for PBXNativeTarget "MisskeyOAuthTestTests" */;
+			buildPhases = (
+				AB5DE7712C08A3FD0030CDA5 /* Sources */,
+				AB5DE7722C08A3FD0030CDA5 /* Frameworks */,
+				AB5DE7732C08A3FD0030CDA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB5DE7772C08A3FD0030CDA5 /* PBXTargetDependency */,
+			);
+			name = MisskeyOAuthTestTests;
+			productName = MisskeyOAuthTestTests;
+			productReference = AB5DE7752C08A3FD0030CDA5 /* MisskeyOAuthTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB5DE77E2C08A3FD0030CDA5 /* MisskeyOAuthTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB5DE78F2C08A3FD0030CDA5 /* Build configuration list for PBXNativeTarget "MisskeyOAuthTestUITests" */;
+			buildPhases = (
+				AB5DE77B2C08A3FD0030CDA5 /* Sources */,
+				AB5DE77C2C08A3FD0030CDA5 /* Frameworks */,
+				AB5DE77D2C08A3FD0030CDA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB5DE7812C08A3FD0030CDA5 /* PBXTargetDependency */,
+			);
+			name = MisskeyOAuthTestUITests;
+			productName = MisskeyOAuthTestUITests;
+			productReference = AB5DE77F2C08A3FD0030CDA5 /* MisskeyOAuthTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB5DE75C2C08A3FB0030CDA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					AB5DE7632C08A3FB0030CDA5 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					AB5DE7742C08A3FD0030CDA5 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = AB5DE7632C08A3FB0030CDA5;
+					};
+					AB5DE77E2C08A3FD0030CDA5 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = AB5DE7632C08A3FB0030CDA5;
+					};
+				};
+			};
+			buildConfigurationList = AB5DE75F2C08A3FB0030CDA5 /* Build configuration list for PBXProject "MisskeyOAuthTest" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB5DE75B2C08A3FB0030CDA5;
+			productRefGroup = AB5DE7652C08A3FB0030CDA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB5DE7632C08A3FB0030CDA5 /* MisskeyOAuthTest */,
+				AB5DE7742C08A3FD0030CDA5 /* MisskeyOAuthTestTests */,
+				AB5DE77E2C08A3FD0030CDA5 /* MisskeyOAuthTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB5DE7622C08A3FB0030CDA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB5DE7702C08A3FD0030CDA5 /* Preview Assets.xcassets in Resources */,
+				AB5DE76C2C08A3FD0030CDA5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB5DE7732C08A3FD0030CDA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB5DE77D2C08A3FD0030CDA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB5DE7602C08A3FB0030CDA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB5DE76A2C08A3FB0030CDA5 /* ContentView.swift in Sources */,
+				AB5DE7682C08A3FB0030CDA5 /* MisskeyOAuthTestApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB5DE7712C08A3FD0030CDA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB5DE77A2C08A3FD0030CDA5 /* MisskeyOAuthTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB5DE77B2C08A3FD0030CDA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB5DE7862C08A3FD0030CDA5 /* MisskeyOAuthTestUITestsLaunchTests.swift in Sources */,
+				AB5DE7842C08A3FD0030CDA5 /* MisskeyOAuthTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB5DE7772C08A3FD0030CDA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB5DE7632C08A3FB0030CDA5 /* MisskeyOAuthTest */;
+			targetProxy = AB5DE7762C08A3FD0030CDA5 /* PBXContainerItemProxy */;
+		};
+		AB5DE7812C08A3FD0030CDA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB5DE7632C08A3FB0030CDA5 /* MisskeyOAuthTest */;
+			targetProxy = AB5DE7802C08A3FD0030CDA5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AB5DE7872C08A3FD0030CDA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB5DE7882C08A3FD0030CDA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		AB5DE78A2C08A3FD0030CDA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MisskeyOAuthTest/MisskeyOAuthTest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MisskeyOAuthTest/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Librarian.MisskeyOAuthTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB5DE78B2C08A3FD0030CDA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MisskeyOAuthTest/MisskeyOAuthTest.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MisskeyOAuthTest/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Librarian.MisskeyOAuthTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AB5DE78D2C08A3FD0030CDA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Librarian.MisskeyOAuthTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MisskeyOAuthTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MisskeyOAuthTest";
+			};
+			name = Debug;
+		};
+		AB5DE78E2C08A3FD0030CDA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Librarian.MisskeyOAuthTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MisskeyOAuthTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MisskeyOAuthTest";
+			};
+			name = Release;
+		};
+		AB5DE7902C08A3FD0030CDA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Librarian.MisskeyOAuthTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MisskeyOAuthTest;
+			};
+			name = Debug;
+		};
+		AB5DE7912C08A3FD0030CDA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Librarian.MisskeyOAuthTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MisskeyOAuthTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB5DE75F2C08A3FB0030CDA5 /* Build configuration list for PBXProject "MisskeyOAuthTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB5DE7872C08A3FD0030CDA5 /* Debug */,
+				AB5DE7882C08A3FD0030CDA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB5DE7892C08A3FD0030CDA5 /* Build configuration list for PBXNativeTarget "MisskeyOAuthTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB5DE78A2C08A3FD0030CDA5 /* Debug */,
+				AB5DE78B2C08A3FD0030CDA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB5DE78C2C08A3FD0030CDA5 /* Build configuration list for PBXNativeTarget "MisskeyOAuthTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB5DE78D2C08A3FD0030CDA5 /* Debug */,
+				AB5DE78E2C08A3FD0030CDA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB5DE78F2C08A3FD0030CDA5 /* Build configuration list for PBXNativeTarget "MisskeyOAuthTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB5DE7902C08A3FD0030CDA5 /* Debug */,
+				AB5DE7912C08A3FD0030CDA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB5DE75C2C08A3FB0030CDA5 /* Project object */;
+}
