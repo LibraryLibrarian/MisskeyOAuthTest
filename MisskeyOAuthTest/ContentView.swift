@@ -9,13 +9,33 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        #if os(iOS)
+        TabView {
+            OAuthView(viewModel: OAuthViewModel())
+                .tabItem {
+                    Image(systemName: "house")
+                    Text("OAuth")
+                }
+            MiAuthView(viewModel: MiAuthViewModel())
+                .tabItem {
+                    Image(systemName: "gear")
+                    Text("MiAuth")
+                }
         }
-        .padding()
+        #elseif os(macOS)
+        NavigationView {
+            List {
+                NavigationLink(destination: OAuthView(viewModel: OAuthViewModel())) {
+                    Label("OAuth", systemImage: "house")
+                }
+                NavigationLink(destination: MiAuthView(viewModel: MiAuthViewModel())) {
+                    Label("MiAuth", systemImage: "gear")
+                }
+            }
+            .listStyle(SidebarListStyle())
+            Text("Select an item")
+        }
+        #endif
     }
 }
 
